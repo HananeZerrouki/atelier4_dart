@@ -13,6 +13,7 @@ class Couleur{
  print('Voici la couleur: R: $r, V: $g, B: $b');
   }}
   void main(){
+    //ici instanciation des objets
     var R1=Couleur.rouge();
     Couleur R2= Couleur.rouge();
     Couleur c1= Couleur(364,55,8);
