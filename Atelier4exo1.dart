@@ -10,7 +10,7 @@ class Couleur{
   Couleur.bleu(): r=0,g=0,b=255;
   //methode
   void afficherCouleur(){
- print('R: $r, V: $g, B: $b');
+ print('Voici la couleur: R: $r, V: $g, B: $b');
   }}
   void main(){
     var R1=Couleur.rouge();
