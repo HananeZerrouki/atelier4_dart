@@ -13,7 +13,7 @@ class Point {
 
   // méthode pour afficher les coordonnées
   void display() {
-    print("Coordonnées: ($_x, $_y)");
+    print("voila les Coordonnées: ($_x, $_y)");
   }
 }
 
