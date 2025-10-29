@@ -15,9 +15,9 @@
     return _solde;
   }
 
-  // Méthode pour déposer de l'argent
+  // Méthode  pour déposer de l'argent
   void deposer(double montant) {
-    if (montant > 0) {
+    if (montant > 0) { //condition de depot
       _solde += montant;
       print("Vous avez déposé $montant. Votre nouveau solde est : $_solde");
     } else {
