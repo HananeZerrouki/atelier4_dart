@@ -35,5 +35,5 @@ void main() {
   print("Solde initial: ${monCompte.solde}");
 //Exemple de dépôt 
  monCompte.deposer(500);
- print("Nouveau solde après dépôt : ${monCompte.solde}"); 
+ print("Nouveau solde après dépôt : ${monCompte.solde}"); //affichage de solde
 }
