@@ -18,8 +18,8 @@ class Point {
 }
 
 void main() {
-  var p = Point(2.0, 2.0);
-  p.display();        // Coordonnées: (2.0, 2.0)
-  p.move(2.0, -1.0);
-  p.display();        // Coordonnées: (4.0, 1.0)
+  var pt = Point(2.0, 5.0);
+  pt.display();        // Coordonnées: (2.0, 5.0)
+  pt.move(-1.0, 3.0);
+  pt.display();        // Coordonnées: (1.0, 2.0)
 }
