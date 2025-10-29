@@ -10,7 +10,7 @@
   // Constructeur principal simplifié
   Compte(this.numeroCompte, [this._solde = 0.0]);
 
-  // Méthode pour consulter le solde
+  // Méthode pour consulter le solde avec get public
   double get solde {
     return _solde;
   }
