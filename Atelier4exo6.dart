@@ -9,7 +9,7 @@ print("ServeurAPI: Connexion établie pour $utilisateur.");
   }
   @override
 void deconnecter() {
-print("Deconnexion reussie.");
+print(" votre Deconnexion est reussie.");
   }}
   class BaseDeDonnees implements Connectable{
     @override
