@@ -1,7 +1,8 @@
 class Tache{
   String description;
   static int nombreTotal=0;
-  Tache(this.description){nombreTotal++;}
+  Tache(this.description){
+    nombreTotal++;}
 }
 void main(){
   //Creation des trois instances
