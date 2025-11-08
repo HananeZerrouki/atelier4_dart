@@ -13,8 +13,8 @@ class Cercle extends Forme {
   Cercle(this.rayon);
   @override 
   double calculerAire() {
-    double aire= rayon*rayon*pi;
-    return aire;
+    double airee= rayon*rayon*pi;
+    return airee;
   }}
   class Rectangle extends Forme {
   final double longeur;
