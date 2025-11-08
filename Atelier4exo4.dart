@@ -33,7 +33,7 @@ void main(){
   Catalogue.add(film2);
   
   
-
+//Parcours de la liste catalogue en appelant la methode afficherType() pour chaque element
   for (var media in Catalogue){
     media.afficherType();
   }
