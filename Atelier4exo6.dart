@@ -33,6 +33,12 @@ services.add(s2);
 services.add(s3);
 services.add(b1);
 services.add(b2);
-print("services=[s1,s2,s3,b1,b2]");
-  }
+print("services=[s1,s2,s3,b1,b2]");//On affiche ici la liste de tous les instances crees dans cette liste
+// Liste des utilisateurs différents
+  List<String> utilisateurs = ["Hanane", "Karim", "Matine", "hafid", "Wahiba"];
+
+   // Parcours des services avec index pour assigner a chaque service un utilisateur différent
+  for (int i = 0; i < services.length; i++) {
+    services[i].connecter(utilisateurs[i]);
+    services[i].deconnecter();}}
   
