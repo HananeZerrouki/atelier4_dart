@@ -14,11 +14,11 @@ print(" votre Deconnexion est reussie.");
   class BaseDeDonnees implements Connectable{
     @override
 void connecter(String utilisateur) {
-print("BaseDeDonnees: Connexion établie pour $utilisateur.");
+print("BaseDeDonnees: Connexion établie pour  cet $utilisateur.");
   }
   @override
 void deconnecter() {
-print("Deconnexion reussie.");
+print("votre Deconnexion est reussie.");
   }}
   void main(){
     var s1=ServeurAPI();
