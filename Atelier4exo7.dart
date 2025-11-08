@@ -10,6 +10,7 @@ void main(){
   var t2=Tache("Laver vos linges");
   var t3=Tache("Faire de sport");
   var t4=Tache("Reviser vos lecons");
+  var t5=Tache("Faire des gateaux");
   //Affichage de nombreTotal crees en utilisant le nom de la classe (statique)
   print("Le nombre total des taches crees est: ${Tache.nombreTotal} ");
 }
