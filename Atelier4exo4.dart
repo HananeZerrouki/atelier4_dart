@@ -18,7 +18,7 @@ class Film extends Media{
   Film(super.titre, this.dureeMinutes);
   @override
    void afficherType(){
-    print("Ceci est un Film : $titre de duree $dureeMinutes.");
+    print("Ceci est un Film : $titre de duree $dureeMinutes minutes");
   }
 }
 void main(){
